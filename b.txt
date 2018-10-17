@@ -1,1 +1,13 @@
 hello world 
+hello world yanweifeng
+namespace app\admin\controller;
+use think\Controller;
+
+class Index extends Controller
+{
+    public function test()
+    {
+        return 'hello world git';
+    }
+
+}
